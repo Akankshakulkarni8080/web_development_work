@@ -1,0 +1,365 @@
+.head{
+    height:100px;
+    width:100%;
+    float: left;
+}
+.part1{
+    height:100px;
+    width:30%;
+    float: left;
+}
+.part2{
+    height:100px;
+    width:17.5%;
+    float:left;
+}
+.part3{
+    height:100px;
+    width:17.5%;
+    float:left;
+}
+.part4{
+    height:100px;
+    width:17.5%;
+    float:left;
+}
+.part5{
+    height:100px;
+    width:17.5%;
+    float:left;
+}
+.part1 img{
+    background-color:transparent;
+    float: left;
+}
+.part2 img{
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+.part3 img{
+    margin-top:20px;
+    margin-left:10px;
+    float: left;
+}
+.part4 img{
+    margin-top:20px;
+    margin-left:10px;
+    float: left;
+}
+.part2 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:20px;
+    padding-top:5px;
+    font-size:15px;
+}
+.part3 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:20px;
+    padding-top:5px;
+    font-size:15px;
+}
+.part4 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:20px;
+    padding-top:5px;
+    font-size:15px;
+}
+.part5 li{
+    list-style-type: none;
+    margin-top:10px;
+    font-size:15px;
+}
+.part6{
+    height:100px;
+    width:50%;
+    float:left;
+}
+.bar{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: right;
+    display:none;
+}
+@media(max-width:667px){
+    .part2,.part3,.part4,.part5{
+        display:none;
+    }
+    .bar{
+        display:50%;
+         display: inline;
+         float: right;
+    }
+}
+.sub_head{
+    height:50px;
+    width:100%;
+    float: left;
+    padding:10px;
+    box-shadow:0px 0px 3px 0px grey;
+
+}
+.sub_head ul li{
+   display: inline-block;
+   border-right:1px solid grey;
+    padding:10px;
+    float:left;
+
+}
+.sub_contain{
+    height:40px;
+    width:200px;
+    margin-left:200px;
+    float:left;
+    box-shadow:0px 0px 3px 0px grey;
+
+}
+.icon{
+    height:20px;
+    width:20px;
+    padding:20px;
+    float: right;
+}
+.next{
+    height:400px;
+    width:95%;
+    margin:30px;
+    float: left;
+}
+.next2{
+    height:400px;
+    width:60%;
+    background-color:black;
+    background-image:url(kem-home-banner-792x373.jpg);
+    background-size: cover;
+float: left;
+}
+.next3{
+    height:200px;
+    width:20%;
+    background-color:#1378bd;
+    float: left;
+}
+.next4{
+    height:200px;
+    width:20%;
+    background-color:#139ebd;
+    float: left;
+}
+.next5{
+    height:200px;
+    width:20%;
+    background-color:#139ebd;
+    float: left;
+}
+.next6{
+    height:200px;
+    width:20%;
+    background-color:#1378bd;
+    float: left;
+}
+.next3 h4{
+    text-align: center;
+    padding-bottom:5px;
+    color: white;
+}
+.io{
+    height:30px;
+    width:30px;
+    color: white;
+    padding-top: 40px;
+    padding-left:130px;
+}
+.next4 h4{
+    text-align: center;
+    padding-bottom:5px;
+    color: white;
+}
+.next5 h4{
+    text-align: center;
+    padding-bottom:5px;
+    color: white;
+}
+.next6 h4{
+    text-align: center;
+    padding-bottom:5px;
+    color: white;
+}
+@media(max-width:667px){
+    .sub_head{
+        display: none;
+    }
+    .next2{
+        height:200px;
+        width:100%;
+    }
+    .io{
+        height:20px;
+        width:20px;
+        align-items: center;
+    }
+    .next3,.next4,.next5,.next6{
+        height:170px;
+        width:50%;
+    }
+}
+.next_page{
+    height:400px;
+    width:96%;
+    float: left;
+    margin:20px;
+}
+.next_page1{
+    height:370px;
+    width:30%;
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow:0px 0px 5px 0px grey;
+
+}
+
+.next_page2{
+    height:370px;
+    width:30%;
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow:0px 0px 5px 0px grey;
+
+}
+
+.next_page3{
+    height:370px;
+    width:30%;
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow:0px 0px 5px 0px grey;
+
+
+}
+.why_choose{
+    height:50px;
+    width:100%;
+    background-color: #1378bd;
+    font-size:25px;
+    color: white;
+    box-shadow:0px 0px 5px 0px grey;
+
+}
+.whats_new{
+    height:50px;
+    width:100%;
+    background-color: #1378bd;
+    font-size:25px;
+    color: white;
+}
+.Events_cal{
+    height:50px;
+    width:100%;
+    background-color:rgb(97, 179, 105);
+    font-size:25px;
+    color: white;
+}
+.read_more{
+    height:30px;
+    width:100%;
+    background-color: white;
+    color: #1378bd;
+    text-align: center;
+    border: 1px solid grey;
+
+}
+.icon5{
+    float: right;
+    padding-top: 5px;
+}
+@media(max-width:667px){
+    .next_page1,.next_page2,.next_page3{
+        height: 200px;
+        width:100%;
+        padding-top: 20px;
+    }
+}
+.health_packages{
+    height:500px;
+    width:60%;
+    background-color:red;
+    background-image:url('sss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin-top: 10px;
+    float: left;
+}
+.learn_more{
+    height:40px;
+    width:150px;
+    background-color: rgb(108, 213, 124);
+    margin-top: 10px;
+    margin-left:20px;
+    border-radius:10px;
+    text-align: center;
+    padding-top:10px;
+
+}
+.another{
+    height:500px;
+    width:40%;
+    background-image:linear-gradient(to right, #139ebd,#1378bd);
+    float: left;
+    margin-top: 10px;
+}
+.another1{
+    height:40px;
+    width:94%;
+    background-color:grey;
+    margin:10px;
+    float: left;
+}
+.another2{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another3{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another4{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another5{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another6{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another7{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}.another8{
+    height:40px;
+    width:94%;
+    background-color: grey;
+    margin:10px;
+    float: left;
+}
