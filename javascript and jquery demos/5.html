@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<img id="img" src="my bappa.jpg" height="200px" width="200px">
+
+<br><br>
+    <button id="border">Add border</button>
+    <button id="circle">img circle</button>
+    <button id="filter">img filter</button>
+    <button id="resize">img resize</button>
+    <button id="rotate">img rotate</button>
+<br>
+<br>
+<button id="opacity">img transparent</button>
+<button id="box">img shadow</button>
+
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+   <script type="text/javascript">
+    $(document).ready(function(){
+        $('#border').click(function(){
+            $('#img').css('border','20px solid black');
+        })
+        $('#circle').click(function(){
+            $('#img').css('border-radius','50%');
+        })
+        $('#filter').click(function(){
+            $('#img').css('filter','brightness(200%)');
+        })
+        $('#resize').click(function(){
+            $('#img').css({"height":"400px","width":"400px"});
+        })
+        $('#rotate').click(function(){
+            $('#img').css('rotate','90deg');
+        })
+        $('#opacity').click(function(){
+            $('#img').css('opacity','0.5');
+        })
+        $('#box').click(function(){
+            $('#img').css('box-shadow','10px 10px 10px 10px');
+        })
+       
+    })
+   </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box1{
+              height:80px;
+              width:1500px;
+              background-color: white;
+              border:2px solid black;
+              margin:5px;
+        }
+       
+    </style>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<h2><center>Example 3-Create duplicate of the elements with .clone()-jQuery</center></h2>
+<p>click the Add new button</p>
+<div class="box1">
+    <input type="text" placeholder="Enter Name" style="margin:5px"><br>
+    <input type="text" placeholder="Enter Email" style="margin:5px">
+    </div>
+    
+    <div class="box3"></div>
+    <button id="add" >Add new</button>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    $('#add').click(function(){
+      var a=$('.box2').val();
+      $('.box1').clone();
+      $('.box1').clone().appendTo('.box3');
+      
+
+
+    })
+ })
+</script>
+</body>
+</html>

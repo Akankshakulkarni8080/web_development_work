@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+     .main_box{
+        height:550px;
+        width:1040px;
+        background-color:#c4f6d7;
+        float: left;
+        float:center;
+        margin-top:70px;
+        margin-left: 200px;
+        border-radius: 20px;
+        border:3px solid orange;
+     }
+     .ball1{
+        height:30px;
+        width:30px;
+        background-color:red;
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        top:260px;
+        left:420px;
+
+        
+     }
+     .ball2{
+        height:30px;
+        width:30px;
+        background-color:green;
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:260px;
+        left:430px;
+
+        
+     }
+     .ball3{
+        height:30px;
+        width:30px;
+
+        background-color:yellow;
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:260px;
+        left:400px;
+
+    
+     }
+     .ball4{
+        height:30px;
+        width:30px;
+        background-color:rgb(92, 45, 223);
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:260px;
+        left:400px;
+
+    
+     }.ball5{
+        height:30px;
+        width:30px;
+        background-color:rgb(201, 86, 86);
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        top:280px;
+        left:360px;
+
+        
+     }
+     .ball6{
+        height:30px;
+        width:30px;
+        background-color:rgb(62, 29, 151);
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:280px;
+        left:260px;
+
+        
+     }
+     .ball7{
+        height:30px;
+        width:30px;
+        background-color:rgb(75, 220, 225);
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:280px;
+        left:250px;
+
+    
+     }
+     .ball8{
+        height:30px;
+        width:30px;
+        background-color:rgb(210, 214, 75);
+        float: left;
+        border-radius: 50%;
+        position: relative;
+        position: relative;
+        top:280px;
+        left:240px;
+
+    
+     }
+    
+    .box2{
+      height:10px;
+      width:600px;
+       background-color:black;
+       position:absolute;
+       top:350px;
+       left:820px;
+       border-radius:5px;
+    }
+    </style>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <button id="btn" style="height:50px;width: 150px;background-color:rgb(135, 22, 135);border-radius: 10px;color:white;margin-left:-1100px;">Animation</button>
+    <div class="main_box">
+      
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+        <div class="ball4"></div>
+        <div class="ball5"></div>
+        <div class="ball6"></div>
+        <div class="ball7"></div>
+        <div class="ball8"></div>
+
+    </div>
+    <div class="box2"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+   $('#btn').click(function(){
+      $('.box2').animate({"left":"700px"});
+      
+      $(".ball1").animate({"left":"200px"},2000)
+      $(".ball2").animate({"left":"200px","top":"100px"},2000)
+      $(".ball3").animate({"left":"150px","top":"400px"},2000)
+      $(".ball4").animate({"left":"160px","top":"380px"},2000)
+      $(".ball5").animate({"left":"200px","top":"200px"},2000)
+      $(".ball6").animate({"left":"130px","top":"200px"},2000)
+      $(".ball7").animate({"left":"160px","top":"250px"},2000)
+      $(".ball8").animate({"left":"230px","top":"100px"},2000)
+
+   })
+   
+})
+</script>
+</body>
+</html>

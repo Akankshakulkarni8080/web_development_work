@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    box2{
+      height:100px;
+            width:200px;
+            background-color:white;
+            border:2px solid black;
+
+    }
+  </style>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+    <form id="let">
+  <h1><center>Letter Form</center></h1>
+  Date:
+  <br><input type="date"><br>
+  Tittle:
+  <br><input type="title" value="Letter"><br>
+   To,
+   <br><input type="text" value="A2z it Hub"><br>
+   Subject:-
+   <br><input type="text" value="about giving information of jquery" style="width:500px;"><br>
+   body:
+   <br><input type="textarea" style="width:500px;height:100px" value="
+
+   jQuery is an open source JavaScript library that simplifies the interactions between
+    an HTML/CSS document, or more precisely the Document Object Model (DOM), and JavaScript.
+   The main purpose of jQuery is to provide an easy way to use JavaScript on your 
+   website to make it more interactive and attractive. It is also used to add animation.
+   jQuery is a small, light-weight and fast JavaScript library.
+    It is cross-platform and supports different types of browsers. It is also referred as ?write less do more? because it takes a lot of common tasks that requires many lines of JavaScriptcode"><br>
+   Thanks:
+   <br><input type="text" value="thanks">
+    </form>
+    <div id="box2"></div>
+   <script type="text/javascript">
+        $(document).ready(function(){
+          var html=$('#let').val();
+            $('#box2').html(html);
+        })
+   </script>
+</body>
+</html>

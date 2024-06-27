@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:darkblue;"><center>FORM VALIDATION</center></h1>
+    <br>
+    <br>
+    <form id="form" style="margin-left: 30px;">
+<label>Name</label>
+<br>
+<input type="text" id='inp' style="height:50px;width:700px">
+<br>
+<label>Email</label>
+<br>
+<input type="email" id="em" style="height:50px;width:700px">
+<br>
+<label>Mobile</label>
+<br>
+<input type="number" id="mo" style="height:50px;width:700px">
+<br>
+<label>Subject</label>
+<br>
+<input type="text" id='sub' style="height:50px;width:700px">
+<br><br><br>
+<button id="btn" style="height:50px;width:100px;background-color:rgb(216, 190, 38);">Submit</button>
+    </form>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+   <script type="text/javascript">
+$(document).ready(function(){
+    $('#btn').click(function(){  
+            $('#inp').css('background','red');
+
+        });
+        $('#btn').click(function(){  
+            $('#em').css('background','red');
+
+        });
+        $('#btn').click(function(){  
+            $('#mo').css('background','red');
+
+        });
+        $('#btn').click(function(){  
+            $('#sub').css('background','red');
+
+        });
+   
+    })
+    
+    $('#form').click(function(){   
+        $('#btn').focus(function(){
+            $('#inp').css('background','green')
+        });
+    })
+    $('#form').click(function(){   
+        $('#btn').focus(function(){
+            $('#em').css('background','green')
+        });
+    })
+   $('#form').click(function(){   
+        $('#btn').focus(function(){
+            $('#mo').css('background','green')
+        });
+    })
+    $('#form').click(function(){   
+        $('#btn').focus(function(){
+            $('#sub').css('background','green')
+        });
+    })
+   
+
+   </script>
+</body>
+</html>

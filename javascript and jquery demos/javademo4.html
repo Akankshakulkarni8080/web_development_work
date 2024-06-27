@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="height:80px;width:100%;background-color: red;">
+        <img src="a2z logo.png" height="50px" width="50px" style="padding: 10px;">
+        <h1 style="color:white;margin-top:-60px;margin-left:850px;">A2Z IT HUB PVT.LTD.</h1>
+    </div>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+<h1 style="margin-top:200px;margin-left: 450px;">Count Inc & Dec Demo</h1>
+<button id="inc" style="margin-left:480px;height:40px;width:40px;background-color: black;color: white;border-radius:10px;">+</button>
+<input type="text" id="text" readonly value="1" style="height:40px;border-radius:10px;">
+<button id="dec" style="height:40px;width:40px;background-color: black;color: white;border-radius:10px;">-</button>
+<script type="text/javascript">
+$(document).ready(function(){ 
+ $('#dec').click(function(){
+    var a=$('#text').val();
+    a=a-1;
+    $('#text').val(a);
+ })
+ $('#inc').click(function(){
+    var count=$('#text').val();
+    count++;
+    $('#text').val(count);
+ })
+ 
+})
+</script>
+</body>

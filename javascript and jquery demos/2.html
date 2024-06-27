@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box2{
+            height:100px;
+            width:200px;
+            background-color:white;
+            border:2px solid black;
+
+        }
+    </style>
+    <div>
+        <label form="enter the text">Name</label>
+        <input type="text" id="box1">
+        <button id="btn">Show</button>
+    </div>
+    <br>
+    <div class="box2" id="box2"></div>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.slim.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $('#btn').click(function(){
+            var html=$('#box1').val();
+            $('#box2').html(html);
+            console.log("<mark>html</mark>");
+        })
+      })
+
+  </script>
+</body>
+</html>
