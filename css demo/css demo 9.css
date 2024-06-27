@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.webpage{
+ height:700px;
+ width:100%;
+ background-color: red;
+ background-image:url(demo\ web\ page.jpg);
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+}
+.head{
+    height:100px;
+    width:100%;
+    background-color: rgba(0px,0px,0px,0.1); 
+}
+.content{
+    height:40px;
+    width:50%;
+    background-color:rgba(0px,0px,0px,0.1);
+    float: left;
+    margin-top:30px;
+    margin-left:200px;
+}
+.content li{
+    list-style-type:none;
+    display: inline-block;
+    font-size: 20px;
+    padding-left:80px;
+    color: white;
+    padding-top:12px;
+}
+.box1{
+    height:30px;
+    width:170px;
+    background-color: white;
+    position: absolute;
+    left:1100px;
+    top:40px;
+    border: 3px solid orange;
+    margin-left:30px;
+}
+.box2{
+    height:25px;
+    width:100px;
+    background-color:orange;
+    position: absolute;
+    left: 1305px;
+    top:40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.box3{
+    height:450px;
+    width:600px;
+    background-color:rgba(0px,0px,0px,0.1);
+    margin-left:70px;
+    margin-top: 40px;
+    float: left;
+}
+.join{
+    height:40px;
+    width:180px;
+    background-color: orange;
+    margin-top:40px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.login{
+       height:450px;
+       width:350px;
+       background-color: black;
+       float: left;
+       position: absolute;
+       top:150px;
+       left:710px;
+       border-top-left-radius:10px;
+       border-top-right-radius:10px;
+       border-bottom-left-radius:10px;
+       border-bottom-right-radius:10px;
+}
+.login_class{
+    height:50px;
+    width:300px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.login_button{
+    height:50px;
+    width:300px;
+    background-color:orange;
+    margin-top: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.icons{
+    height:40px;
+    width:40px;
+    color:white;
+    padding-left:15px;
+}

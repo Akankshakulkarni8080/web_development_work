@@ -1,0 +1,140 @@
+.box1{
+    height:700px;
+    width:100%;
+    background-color:yellow;
+    animation-name:ani;
+    animation-duration:2s;
+}
+.box2{
+    height:650px;
+    width:100%;
+    background-color:blue;
+    border-radius: 50%;
+    float: left;
+    animation-name:animation;
+    animation-duration:3s;
+
+}
+.box3{
+    height:600px;
+    width:90%;
+    background-color:green;
+    border-radius: 50%;
+    float: left;
+    margin-left:50px;
+    margin-top: 20px;
+    animation-name:ani;
+    animation-duration:4s;
+
+}
+.box4{
+    height:550px;
+    width:80%;
+    background-color:red;
+    border-radius: 50%;
+    float: left;
+    margin-left:150px;
+    margin-top: 20px;
+    animation-name:animation;
+    animation-duration:2s;
+
+}
+.box5{
+    height:500px;
+    width:80%;
+    background-color:purple;
+    border-radius: 50%;
+    float: left;
+    margin-left:150px;
+    margin-top: 20px;
+    animation-name:ani;
+    animation-duration:3s;
+
+}
+.box6{
+    height:450px;
+    width:70%;
+    background-color:black;
+    border-radius: 50%;
+    float: left;
+    margin-left:100px;
+    margin-top: 20px;
+    animation-name:animation;
+    animation-duration:4s;
+
+}
+.box7{
+    height:400px;
+    width:70%;
+    background-color:yellow;
+    border-radius: 50%;
+    float: left;
+    margin-left:100px;
+    margin-top: 20px;
+    animation-name:ani;
+    animation-duration:2s;
+
+}
+.box8{
+    height:350px;
+    width:80%;
+    background-color:blue;
+    border-radius: 50%;
+    float: left;
+    margin-left:40px;
+    margin-top: 20px;
+    animation-name:animation;
+    animation-duration:3s;
+
+}
+.box9{
+    height:300px;
+    width:80%;
+    background-color:green;
+    border-radius: 50%;
+    float: left;
+    margin-left:50px;
+    margin-top: 20px;
+    animation-name:ani;
+    animation-duration:4s;
+
+}
+.box10{
+    
+    height:250px;
+    width:60%;
+    background-color:red;
+    border-radius: 50%;
+    float: left;
+    margin-left:60px;
+    margin-top: 20px;
+    animation-name:animation;
+    animation-duration:s;
+
+}
+@keyframes ani{
+    10%{background-color:black;}
+    20%{background-color:purple;}
+    30%{background-color:blue;}
+    40%{background-color:red;}
+    50%{background-color:yellow;}
+    60%{background-color:purple;}
+    70%{background-color:black;}
+    80%{background-color:blue;}
+    90%{background-color:green;}
+    100%{background-color:red;}
+
+}
+@keyframes animation{
+    10%{background-color:red;}
+    20%{background-color:green;}
+    30%{background-color:blue;}
+    40%{background-color:black;}
+    50%{background-color:yellow;}
+    60%{background-color:purple;}
+    70%{background-color:black;}
+    80%{background-color:blue;}
+    90%{background-color:green;}
+    100%{background-color:red;}
+
+}

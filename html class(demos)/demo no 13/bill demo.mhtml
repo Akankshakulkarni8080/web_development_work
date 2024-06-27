@@ -1,0 +1,125 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/demo%20no%2013/demo%20no%2013.html
+Subject: Document
+Date: Sat, 9 Mar 2024 11:25:45 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xwwFavHE8TApKeho8b7Zhjtf0smVaagqiUUHqyFYIa----"
+
+
+------MultipartBoundary--xwwFavHE8TApKeho8b7Zhjtf0smVaagqiUUHqyFYIa----
+Content-Type: text/html
+Content-ID: <frame-A15F57A78995F0D4D9842E8BB0582560@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/demo%20no%2013/demo%20no%2013.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-9f0b3e32-50c6-479b-a08d-45ffc4dacba3@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Document</title>
+   =20
+</head>
+<body>
+    <div style=3D"height:50px;width:33.33%;float:left;"></div>
+    <div style=3D"height:50px;width:33.33%;float:left;"><h1><b><center>CASH=
+ INVOICE</center> </b></h1></div>
+    <div style=3D"height:50px;width:33.33%;float:right;margin-top:10px;"><h=
+3><center>Invoice No:22</center></h3></div>
+    <br>
+    <br>
+    <div style=3D"height:25px;width:33.33%;background-color: white;float:le=
+ft;margin-top:5px;"><h3>Page:1</h3></div>
+    <div style=3D"height:25px;width:33.33%;background-color: white;float:le=
+ft;margin-top:5px;"><h3><center>ORIGINAL</center></h3></div>
+    <div style=3D"height:25px;width:33.33%;background-color:white;float:lef=
+t;"><h3><center>Date:26-03-2018</center></h3></div>
+    <br>
+    <br>
+<br><center>
+<table border=3D"1px" height=3D"50px" width=3D"50%">
+    <tbody><tr>
+        <td style=3D"width:70%;">
+            <h1>GST PRO</h1><br>
+            HafyMish Technologies<br>
+            Banglore-560021<br>
+            GST:29GSTI23456
+        </td>
+       =20
+        <td style=3D"width:50%">
+           <h1>TO</h1><br>
+           Counter Sales<br>
+           State:Karnataka
+        </td>
+    </tr>
+</tbody></table>
+<table border=3D"1px" width=3D"50%">
+    <tbody><tr>
+        <th height=3D"10px" width=3D"10%">SR</th>
+        <th height=3D"10px" width=3D"40%">Product Name[HSN]</th>
+        <th height=3D"10px" width=3D"10%">Gst%</th>
+        <th height=3D"10px" width=3D"10%">Rate</th>
+        <th height=3D"10px" width=3D"10%">Qty</th>
+        <th height=3D"10px" width=3D"20%">Total</th>
+    </tr>
+   <tr height=3D"600px" width=3D"50%">
+        <td>1</td>
+        <td>Jetter pen Reynolds[4114]</td>
+        <td>18</td>
+        <td>40.00</td>
+        <td>1</td>
+        <td>40.00</td>
+   </tr>
+   <tr>
+    <td colspan=3D"2">Items:1<br>
+    E&amp;OE Goodsnonce sold cannot be taken back or exchanged=20
+    </td>
+    <td colspan=3D"3">
+        Total Taxable<br>
+        Total Tax<br>
+        Round-Off
+    </td>
+    <td>
+        40.00<br>
+        7.20<br>
+        -0.20
+    </td>
+   </tr>
+</tbody></table>
+
+<h3 style=3D"float:left">Ruppees forty-seven only.</h3>
+<h2 style=3D"float:right;">Total:$47.00</h2>
+<br>
+<br>
+</center>
+<div style=3D"height:50px;width:10%;background-color:white;margin-top:20px;=
+text-align: right;float: left;"><h5>GST<br>18%</h5></div>
+<div style=3D"height:50px;width:10%;background-color:white;margin-top:20px;=
+text-align: right;float: left;"><h5>Taxable<br>$40.00</h5></div>
+<div style=3D"height:50px;width:10%;background-color:white;margin-top:20px;=
+text-align: right;float: left;"><h5>CGST<br>$3.60</h5></div>
+<div style=3D"height:50px;width:10%;background-color:white;margin-top:20px;=
+text-align: right;float: left;"><h5>SGST<br>$3.60</h5></div>
+<div style=3D"height:25px;width:40%;background-color:white;text-align:cente=
+r;float: left;"><h3>For Gst Pro</h3></div>
+<br>
+<br>
+<br>
+<h3 style=3D"text-align: start;">Thank you, have a great day!</h3>
+<h3 style=3D"text-align: end;">Signatory</h3>
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--xwwFavHE8TApKeho8b7Zhjtf0smVaagqiUUHqyFYIa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9f0b3e32-50c6-479b-a08d-45ffc4dacba3@mhtml.blink
+
+@charset "utf-8";
+
+table { border-collapse: collapse; border: 1px black; }
+------MultipartBoundary--xwwFavHE8TApKeho8b7Zhjtf0smVaagqiUUHqyFYIa------

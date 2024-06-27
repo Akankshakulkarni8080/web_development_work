@@ -1,0 +1,93 @@
+.box1{
+    height:100px;
+    width:10%;
+    float:left;
+    border-top: 5px solid black;
+    border-right:5px solid black;
+    background-color:pink;
+    float:left;
+    box-sizing: border-box;
+}
+.box2{
+    height:100px;
+    width:80%;
+    float: left;
+    background-color:pink;
+    box-sizing: border-box;
+}
+img{
+    height:100px;
+    width:10%;
+    background-color:pink;
+    background-image:url(g-removebg-preview.png);
+    mix-blend-mode: multiply;
+}
+.box3{
+    height:100px;
+    width:10%;
+    float: left;
+    background-color:pink;
+    border-top: 5px solid black;
+    border-left:5px solid black;
+    box-sizing: border-box;
+}
+.box4{
+    height:100px;
+    width:10%;
+    background-color:pink;
+    float:left;
+    box-sizing: border-box;
+
+}
+.box5{
+    height:100px;
+    width:10%;
+    float:left;
+    border-top:5px solid black;
+    border-right:5px solid black;
+    background-color:pink;
+    box-sizing: border-box;
+}
+.box6{
+    height:100px;
+    width:60%;
+    background-color:pink;
+    float:left;
+    box-sizing: border-box;
+}
+.box7{    
+    height:100px;
+    width:40%;
+    float: left;
+    background-color:pink;
+    box-sizing: border-box;
+    border-bottom: 5px solid black;
+}
+.box8{
+    height:100px;
+    width:10%;
+    background-color:pink;
+    float:left;
+    border-top:5px solid black;
+    border-left:5px solid black;
+    box-sizing: border-box;
+}
+.demo{
+    height:400px;
+    width:100%;
+    float: left;
+    background-color:pink;
+}
+.demo img{
+ height:300px;
+ width:20%;
+ margin:30px;
+ float: left;
+ border-top:10px solid darkblue;
+ border-bottom:10px solid darkblue;
+ border-left:10px solid darkblue;
+ border-right:10px solid darkblue;
+ box-sizing: border-box;
+
+}
+

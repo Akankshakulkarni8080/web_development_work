@@ -1,0 +1,44 @@
+.box{
+    height:800px;
+    width:100%;
+    background-image:url(coding.avif);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.box1{
+    height:600px;
+    margin:20px;
+    background-color: blueviolet;
+    width: 30%;
+    margin-top:20px;
+    color:whitesmoke;
+    font-weight:2000px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: normal;
+    text-transform:bold;
+    text-decoration: solid;
+    font-size: 2em;
+    text-transform:capitalize;
+    margin:20px;
+    margin-top: 20px;    
+    background-color:rgba(0, 0, 0, 0);
+    float: left;
+}
+.box2 img{
+           background-repeat: no-repeat;
+           height: 700px;
+           width:40%;
+           float: left;
+        }
+.box3{
+    height:500px;
+    float: left;
+    margin-top:70px;
+    background-color:#330000;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:10px;
+    border-left:5px solid red;
+    border-right: 5px solid red;
+
+}

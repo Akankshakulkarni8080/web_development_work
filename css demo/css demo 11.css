@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.head{
+    height:80px;
+    width:100%;
+    background-color:white;
+}
+.content li{
+    list-style-type:none;
+    display: inline-block;
+    padding-left:70px;
+    padding-top:30px;
+    font-size: 20px;
+    color: darkblue;
+}
+.ad{
+    height:40px;
+    width:130px;
+    background-color: darkblue;
+    position: absolute;
+    top:20px;
+    right:150px;
+}
+.main{
+    height:600px;
+    width:100%;
+    background-color: red;
+    background-image:url('code.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.box{
+    height:200px;
+    width:800px;
+    background-color: white;
+    position: absolute;
+    top:250px;
+    left:400px;
+}
+.box li{
+        list-style-type: none;
+        display: inline-block;
+        font-size:20px;
+        text-align: center;
+        padding-left:40px;
+        padding-top:40px;
+}
+
+.ball2{
+    height:50px;
+    width:50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left:620px;
+    z-index:500;
+}
+.ball3{
+    height:50px;
+    width:50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left:770px;
+    z-index:500;
+}
+.ball4{
+    height:50px;
+    width:50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left:920px;
+    z-index:500;
+}
+.ball5{
+    height:50px;
+    width:50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left:1080px;
+}
+.line{
+    height:5px;
+    width:565px;
+    background-color: darkblue;
+    position: absolute;
+    top:30px;
+    left:48px;
+}
+.ball1{
+    height:50px;
+    width:50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left:470px;
+    z-index:500;
+}
